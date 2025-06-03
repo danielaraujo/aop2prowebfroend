@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Mundo Viajante</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Mundo<span>Viajante</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="praias.html">Praias</a></li>
+                    <li><a href="montanhas.html">Montanhas</a></li>
+                    <li><a href="cidades.html">Cidades</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg'); height: 50vh;">
+        <div class="hero-content">
+            <h1>Entre em Contato</h1>
+            <p>Estamos aqui para ajudar a planejar sua próxima aventura</p>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <section class="main-content">
+        <div class="container content-container">
+            <h2>Fale Conosco</h2>
+            <p>No Mundo Viajante, valorizamos a comunicação com nossos leitores e acreditamos que o compartilhamento de experiências enriquece a jornada de todos os viajantes. Se você tem dúvidas sobre algum destino, sugestões de novos lugares para abordarmos, relatos de viagem que gostaria de compartilhar ou qualquer outro assunto relacionado às suas aventuras pelo Brasil, ficaremos felizes em ouvir.</p>
+            
+            <p>Nossa equipe é formada por viajantes apaixonados que percorreram diversos cantos do país e estão sempre em busca de novas experiências para compartilhar. Utilizamos nosso conhecimento e rede de contatos para fornecer informações precisas e atualizadas, ajudando você a planejar viagens memoráveis e seguras.</p>
+            
+            <p>Preencha o formulário abaixo e entraremos em contato o mais breve possível. Alternativamente, você pode nos encontrar nas redes sociais, onde compartilhamos dicas, promoções e inspirações diariamente.</p>
+
+            <!-- Formulário de Contato -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <select id="subject" name="subject" class="form-control" required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="duvida">Dúvida sobre destino</option>
+                            <option value="sugestao">Sugestão de conteúdo</option>
+                            <option value="parceria">Proposta de parceria</option>
+                            <option value="relato">Compartilhar experiência</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+
+            <h2>Informações Adicionais</h2>
+            <p>Além do formulário de contato, disponibilizamos outras formas de comunicação para melhor atendê-lo:</p>
+            
+            <div style="margin: 30px 0; display: flex; flex-wrap: wrap; gap: 30px;">
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i class="fas fa-envelope"></i> E-mail</h3>
+                    <p>Para assuntos gerais: contato@mundoviajante.com.br</p>
+                    <p>Para parcerias comerciais: parcerias@mundoviajante.com.br</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i class="fas fa-phone-alt"></i> Telefone</h3>
+                    <p>Central de Atendimento: (11) 5555-1234</p>
+                    <p>Horário de atendimento: Segunda a Sexta, das 9h às 18h</p>
+                </div>
+                <div style="flex: 1; min-width: 250px;">
+                    <h3><i class="fas fa-map-marker-alt"></i> Endereço</h3>
+                    <p>Av. Paulista, 1000 - Bela Vista</p>
+                    <p>São Paulo - SP, CEP: 01310-100</p>
+                </div>
+            </div>
+
+            <h2>Siga-nos nas Redes Sociais</h2>
+            <p>Acompanhe o Mundo Viajante nas redes sociais para ficar por dentro das novidades, dicas de viagem, promoções exclusivas e muito mais. Compartilhamos diariamente conteúdos inspiradores para alimentar sua paixão por viagens e ajudá-lo a descobrir novos destinos incríveis pelo Brasil.</p>
+            
+            <div style="margin: 30px 0; display: flex; justify-content: center; gap: 20px;">
+                <a href="#" style="font-size: 2rem; color: var(--primary-color);"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" style="font-size: 2rem; color: var(--primary-color);"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="font-size: 2rem; color: var(--primary-color);"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" style="font-size: 2rem; color: var(--primary-color);"><i class="fab fa-youtube"></i></a>
+                <a href="#" style="font-size: 2rem; color: var(--primary-color);"><i class="fab fa-pinterest-square"></i></a>
+            </div>
+
+            <h2>Newsletter</h2>
+            <p>Inscreva-se em nossa newsletter e receba mensalmente um resumo dos melhores conteúdos, dicas exclusivas de viagem e ofertas especiais de nossos parceiros. É uma forma simples de se manter informado sobre os destinos mais interessantes do Brasil e planejar suas próximas aventuras com antecedência.</p>
+            
+            <div class="contact-form" style="max-width: 500px; margin: 30px auto;">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="newsletter-name">Nome</label>
+                        <input type="text" id="newsletter-name" name="newsletter-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="newsletter-email">E-mail</label>
+                        <input type="email" id="newsletter-email" name="newsletter-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Inscrever-se</button>
+                    </div>
+                </form>
+            </div>
+
+            <h2>Perguntas Frequentes</h2>
+            <p>Antes de entrar em contato, verifique se sua dúvida já não está respondida em nossa seção de perguntas frequentes:</p>
+            
+            <div style="margin: 30px 0;">
+                <h3>Como posso contribuir com o blog?</h3>
+                <p>Valorizamos muito a contribuição dos nossos leitores! Você pode compartilhar suas experiências de viagem, enviar fotos para nossas redes sociais ou até mesmo propor uma parceria para escrever como colunista convidado. Entre em contato através do formulário acima selecionando a opção "Compartilhar experiência" ou "Proposta de parceria".</p>
+                
+                <h3>Vocês oferecem consultoria de viagem personalizada?</h3>
+                <p>Sim! Para alguns destinos específicos, oferecemos consultoria personalizada para ajudar no planejamento da sua viagem. Este serviço inclui sugestões de roteiros, dicas de hospedagem, transporte e atrações, adaptados ao seu perfil e orçamento. Entre em contato para mais informações sobre valores e disponibilidade.</p>
+                
+                <h3>Como posso saber sobre promoções de passagens e hospedagens?</h3>
+                <p>A melhor forma de ficar por dentro das promoções é inscrevendo-se em nossa newsletter e seguindo nossas redes sociais. Compartilhamos regularmente ofertas especiais de companhias aéreas, hotéis e pacotes de viagem que encontramos para diversos destinos brasileiros.</p>
+                
+                <h3>Posso utilizar o conteúdo do blog em meu trabalho ou site?</h3>
+                <p>Todo o conteúdo do Mundo Viajante é protegido por direitos autorais. Para utilização em trabalhos acadêmicos, é necessário citar a fonte adequadamente. Para uso comercial ou reprodução em outros sites, é preciso solicitar autorização prévia através do e-mail contato@mundoviajante.com.br.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Mundo Viajante</h3>
+                    <p>Seu guia completo para explorar as belezas naturais e culturais do Brasil.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Destinos</h3>
+                    <ul class="footer-links">
+                        <li><a href="praias.html">Praias</a></li>
+                        <li><a href="montanhas.html">Montanhas</a></li>
+                        <li><a href="cidades.html">Cidades Históricas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Úteis</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Mundo Viajante. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
